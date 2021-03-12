@@ -1,6 +1,7 @@
 FROM ubuntu:18.04
 
 ENV DEBIAN_FRONTED moninteractive
+
 RUN apt-get update -yq
 RUN apt-get install -yq build-essential \
     python-dev \
